@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <title>SphereCollision</title>
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+    .wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+    }
+    #littleCircle {
+        position: absolute;
+    }
+    #text {
+        position: absolute;
+        font-family: 'Rubik', sans-serif;
+        bottom: 700px;
+        opacity: 0;
+    }
+    @media(min-width: 0px) and (max-width: 700px)
+    {
+        #text {
+            bottom: 600px;
+        }
+    }
+</style>
+<body>
+    <div class="wrap">
+        <h1 id="text">COLLIDING! :3</h1>
+        <canvas id="littleCircle" width="150" height="150"></canvas>
+        <canvas id="bigCircle" width="300" height="300"></canvas>
+    </div>
+</body>
+</html>
