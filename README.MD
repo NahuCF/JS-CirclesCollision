@@ -1,3 +1,3 @@
 # Preview
 
-!["Preview-Img](img.png);
+!["Preview-Img](img.png)
